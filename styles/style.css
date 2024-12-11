@@ -5,12 +5,11 @@
 }
 
 #navDiv {
-    width: 1231px;
+    max-width: 1231px;
     background: #F7F4FF;
     padding: 12px 24px;
-    margin: 0 auto;
-    margin-left: 689px;
-  
+    margin-left: auto;
+}
 }
 
 #ulDiv {
@@ -64,23 +63,24 @@
 #imgOne {
     display: inline-block;
     margin-left: 350px;
-
-   
+    max-width: 610px;
+    vertical-align: middle;
 }
+
 
 #olHeadDiv {
     display: inline-block;
-    width: 644px;
+    max-width: 644px;
     margin-left: 45px;
     vertical-align: middle;
-    margin-bottom: 390px;
+    margin-bottom: -100px;
  
 }
 
 #mainDiv {
-    height: 458px;
     margin-top: 154px;
     display: inline-block;
+    margin-bottom: 83px;
 }
    
     
@@ -113,15 +113,12 @@
 
 
 #contactDiv {
-    margin-left: 508px;
-    margin-top: 83px;
-    width: 1221px;
-
- 
+    max-width: 1221px;
+    margin: 0 auto;
 }
 
 #contactUsDiv {
-    width: 905px;
+    max-width: 905px;
     padding-top: 18px;
     padding-bottom: 20px;
 }
@@ -140,22 +137,17 @@
 }
 
 #infoDiv {
-    width: 1221px;
-    height: 532px;
+    max-width: 1221px;
     background-color: #F7F4FF;
-    display: inline-block;
-    margin-left: 350px;
     border-radius: 16px;
     padding: 32px;
+    margin: 0 auto;
 }
 
 #addressDiv {
-    width: 403px;
     display: inline-block;
     background-color: white;
-    height: 474px;
     border-radius: 17px;
-
     vertical-align: middle;
     padding: 20px;
 }
@@ -253,18 +245,15 @@ margin-left: 560px;
 }
 
 #footerDiv {
-    width: 1920px;
-    height: 480px;
     padding: 64px 0px 48px 0px;
     background: #53389E;
     margin-top: 163px;
 }
 
 #footerListDiv {
-    width: 1340px;
-    height: 240px;
+    max-width: 1340px;
     padding: 0px 32px;
-    margin-left: 320px;
+    margin: 0 auto;
 }
 ul {
 list-style-type: none;
@@ -303,14 +292,14 @@ margin-bottom: 12px;
     display: inline-block;
     width: 176px;
     margin-right: 32px;
+    margin-bottom: 64px;
 }
 
 #lastDiv {
-    margin: 64px 0px 48px 0px;
     border-top: 1px solid #7F56D9;
     padding-top: 32px;
-    width: 1200px;
-    margin-left: 352px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 #imgBlur {
