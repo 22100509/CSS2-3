@@ -259,19 +259,25 @@ ul {
 list-style-type: none;
 }
 
-#p, #o, #f, #s, #t, #p, #r {
+#pt, #ov, #fe, #so, #tu, #pri, #rel,
+#com, #ab, #ca, #pr, #ne, #me, #co,
+#res, #bl, #re, #ev, #he, #tu, #su,
+#us, #st, #en, #go, #sa, #ma, #ec,
+#so, #tw, #li, #fa, #gi, #an, #dr,
+#le, #te, #pr, #con, #li, #se, #cont 
+  {
 color: #E9D7FE;
 font-size: 18px;
 margin-bottom: 12px;
 }
 
-#p {
+#pt, #com, #us, #so, #le{
     font-size: 15px;
     color: #E9D7FE;
     margin-bottom: 12px;
 }
 
-#s {
+#so {
     display: inline-block;
     color: #E9D7FE;
     margin-bottom: 12px;
@@ -288,10 +294,16 @@ margin-bottom: 12px;
  
 }
 
-#listOneDiv {
+#listOneDiv, #listTwoDiv, #listThreeDiv, #listFourDiv, #listFiveDiv {
     display: inline-block;
     width: 176px;
     margin-right: 32px;
+    margin-bottom: 64px;
+}
+
+#listSixDiv {
+    display: inline-block;
+    width: 176px;
     margin-bottom: 64px;
 }
 
@@ -318,7 +330,5 @@ margin-bottom: 12px;
     color: #D6BBFB;
     font-size: 16px;
     margin-left: 760px;
-   
-    
-
 }
+
